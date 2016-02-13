@@ -92,3 +92,9 @@ unset fn_cmd
 unset EXPORT_FUNCTIONS
 unset BASHRC_DISPATCH_PID
 unset PRF
+
+export NVM_DIR="/Users/shaheen/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
